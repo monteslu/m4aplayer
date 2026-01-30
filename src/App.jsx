@@ -177,7 +177,15 @@ function generateWaveform(audioBuffer, targetSamples) {
 function App() {
   const [fileName, setFileName] = useState('No file loaded');
   const [loading, setLoading] = useState(false);
-  const [tracks, setTracks] = useState([]);
+  const [tracks, setTracks] = useState(() =>
+    TRACK_NAMES.map((name, i) => ({
+      name,
+      emoji: TRACK_EMOJIS[i],
+      audioBuffer: null,
+      waveform: null,
+      muted: i === 4,
+    }))
+  );
   const [duration, setDuration] = useState(0);
   const [currentPosition, setCurrentPosition] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
