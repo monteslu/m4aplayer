@@ -2,6 +2,8 @@
 
 A web-based audio player for M4A stem files with waveform visualization and per-track muting.
 
+**[Live Demo](https://stemsplayer.netlify.app/)**
+
 ## Features
 
 - Load and play M4A stem files (multi-track) or regular M4A files (single track)
