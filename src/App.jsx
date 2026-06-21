@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
-import { extractAllTracks } from 'm4a-stems/extractor';
+import { extractAllTracks } from 'stem-mp4/extractor';
 import './App.css';
 
 // Track mapping: display index -> stem-mp4 track index
