@@ -40,6 +40,6 @@ npm run dev
 
 ## Dependencies
 
-- [m4a-stems](https://github.com/monteslu/m4a-stems) - M4A stem file extraction (FFmpeg-free)
+- [stem-mp4](https://github.com/monteslu/stem-mp4) - Stem MP4 file extraction (FFmpeg-free)
 - React + Vite
 - Web Audio API for playback

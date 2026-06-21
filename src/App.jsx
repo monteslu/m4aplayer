@@ -2,8 +2,8 @@ import { useState, useRef, useEffect, useCallback } from 'react';
 import { extractAllTracks } from 'm4a-stems/extractor';
 import './App.css';
 
-// Track mapping: display index -> m4a-stems track index
-// m4a-stems: 0=master, 1=drums, 2=bass, 3=other, 4=vocals
+// Track mapping: display index -> stem-mp4 track index
+// stem-mp4: 0=master, 1=drums, 2=bass, 3=other, 4=vocals
 const TRACK_MAP = [1, 2, 3, 4, 0]; // drums, bass, other, vocals, master
 const TRACK_NAMES = ['Drums', 'Bass', 'Other', 'Vocals', 'Master'];
 const TRACK_EMOJIS = ['🥁', '🎸', '🎹', '🎤', '🎵'];
