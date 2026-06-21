@@ -476,6 +476,16 @@ function App() {
           />
         ))}
       </div>
+
+      <footer className="app-footer">
+        <a
+          href="https://github.com/monteslu/m4aplayer"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View source on GitHub
+        </a>
+      </footer>
     </div>
   );
 }
